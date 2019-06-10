@@ -1,0 +1,31 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mFileSystemBuilderTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Making sure the root directory exists[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Exceptions is throw with invalid type creation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Adding a drive with a path[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Adding a drive without a path[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Can't add a drive to another entity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Directory can be created[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Directory cannot be top level and must be contained within another Entity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Zip can be created[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Zip cannot be top level and must be contained within another Entity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- File can be created[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- File cannot be top level and must be contained within another Entity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- File cannot contain any other entities[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Nothing can be created without an existing parent entity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Writing to a file works[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- You cannot write to a Drive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- You cannot write to a directory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- You cannot write to a zip[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- When you write to a file in a zip folder the size decreases by half[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Can't write to a file that doesn't exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Move doesn't work if old path doesn't exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Move doesn't work when the new path doesn't exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Move won't overwrite a file[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Move works properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Move works properly out of zip files[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Move works properly into zip files[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Cannot delete path that doesn't exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Delete works[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Deletes child directories[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Delete updates the size properly without zip files[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Delete updates the size properly with zip files[0m[0m
