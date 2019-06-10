@@ -32,7 +32,6 @@ class Entry {
     attributes += ("name" -> name, "path" -> fullPath)
   }
 
-  // TODO: Is this neeeded?
   /**
     * Update object attribute
     * @param attribute
